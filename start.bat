@@ -1,3 +1,3 @@
-node main.js
+node scraper.ts
 echo successfully downloaded the photos
 pause

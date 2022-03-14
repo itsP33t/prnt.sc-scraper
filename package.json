@@ -2,17 +2,19 @@
   "name": "test_parser",
   "version": "1.0.0",
   "description": "",
-  "main": "main.js",
+  "main": "main.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node main.ts"
   },
   "keywords": [],
   "author": "P33t <petr@petrkoukal.eu>",
   "license": "ISC",
   "dependencies": {
+    "@types/chalk": "^2.2.0",
+    "@types/prompt-sync": "^4.1.1",
     "chalk": "^4.1.2",
     "fs": "^0.0.1-security",
-    "lightshot-parser": "^1.0.1",
-    "prompt-sync": "^4.2.0"
+    "inquirer": "^8.2.1",
+    "lightshot-parser": "^1.0.1"
   }
 }
